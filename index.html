@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <title>Projeto 3 - Calculadora</title>
+    <link rel="shortcut icon" href="img/logo-site.ico" type="image/x-icon">
+    <!--CSS-->
+    <link rel="stylesheet" href="assets/css/global.css">
+    <link rel="stylesheet" href="assets/css/header.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
+    <link rel="stylesheet" href="assets/css/projeto3.css">
+    <!--Meta tags-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--SEO-->
+    <meta name="author" content="João Guilherme">
+    <meta name="description" content="Calculadora feita com html, css e javascript usada para realizar operações matemáticas básicas.">
+    <meta name="keywords" content="Calculadora, html, javascript">
+    <!--SMO-->
+    <meta property="og:title" content="Portifólio do João">
+    <meta property="og:site_name" content="João Dev">
+    <meta property="og:description" content="Calculadora feita com html, css e javascript usada para realizar operações matemáticas básicas.">
+    <meta property="og:url" content="https://joaodev.site">
+    <meta property="og:image" content="img/Projeto3.jpeg">
+    <meta property="og:image:type" content="image/jpeg">
+</head>
+<body>
+    <header>
+        <div class="head">
+            <div class="inicio">
+                <a href="#"><img class="logo" src="img/logo.svg" alt="logo do site"></a>
+                <img class="icon" src="img/menu.svg" alt="icone do menu sanduiche">
+            </div>
+            <nav class="nav">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Projetos</a></li>
+                    <li><a href="#">Sobre Mim</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <h1 class="titulo">Projeto 3 - Calculador</h1>
+        <section class="calculadora">
+            <table>
+                <thead>
+                    <tr>
+                        <th colspan="4">
+                            <div class="display">
+                                <p class="display-sub"></p>
+                                <p class="display-primary"></p>
+                            </div>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><button class="btn btn-num" value="(">(</button></td>
+                        <td><button class="btn btn-num" value=")">)</button></td>
+                        <td><button class="btn btn-clear">Clr</button></td>
+                        <td><button class="btn btn-num" value="*">x</button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="btn btn-num" value="7">7</button></td>
+                        <td><button class="btn btn-num" value="8">8</button></td>
+                        <td><button class="btn btn-num" value="9">9</button></td>
+                        <td><button class="btn btn-divide"><img src="img/divide.svg" alt="" class="btn-divide"></button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="btn btn-num" value="4">4</button></td>
+                        <td><button class="btn btn-num" value="5">5</button></td>
+                        <td><button class="btn btn-num" value="6">6</button></td>
+                        <td><button class="btn btn-num" value="+">+</button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="btn btn-num" value="1">1</button></td>
+                        <td><button class="btn btn-num" value="2">2</button></td>
+                        <td><button class="btn btn-num" value="3">3</button></td>
+                        <td><button class="btn btn-num" value="-">-</button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="btn btn-del"><img src="img/arrow-left.svg" alt="" class="btn-del"></button></td>
+                        <td><button class="btn btn-num" value="0">0</button></td>
+                        <td><button class="btn btn-num" value=".">.</button></td>
+                        <td><button class="btn btn-eq">=</button></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <div class="logos">
+            <img src="img/logo.svg" alt="logo do site no roapé">
+            <div class="redes">
+                <a href="#" target="_blank"><img src="img/github.svg" alt="link do github"></a>
+                <a href="#" target="_blank"><img src="img/linkedin.svg" alt="link do linkedin"></a>
+            </div>
+        </div>
+        <p>Site desenvolvido por João Guilherme</p>
+        <div class="copy">
+            <img src="img/copyright.svg" alt="copyright">
+            <p>Copyright 2024 João Dev</p>
+        </div>
+    </footer>
+    
+    <script src="assets/js/menu.js"></script>
+    <script src="assets/js/proj-03.js"></script>
+</body>
+</html>
