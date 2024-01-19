@@ -22,3 +22,7 @@ A calculadora permitirá ao usuário realizar cálculos simples, como adição, 
   <img align="left" alt="DevJoaoSouza-JS" height="30" width="60" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
   <p>A linguagem de programação utilizada para implementar a lógica por trás da interatividade da calculadora. O JavaScript será responsável por capturar os eventos do usuário, processar os cálculos matemáticos e atualizar dinamicamente a interface de usuário.</p>
 </div>
+
+## Autor
+
+Meu nome é: João Gilherme
